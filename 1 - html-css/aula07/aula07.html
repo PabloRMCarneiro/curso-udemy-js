@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+        }
+        table caption{
+            caption-side: bottom;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px;
+        }
+        tfoot{
+            background-color: rgb(223, 223, 223);
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Descrição da tabela</caption>
+        <thead>
+            <tr>
+                <th>Título1</th>
+                <th>Título2</th>
+                <th>Título3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="2">quatro  celulas</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Rodape 1</td>
+                <td>Rodape 2</td>
+                <td>Rodape 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

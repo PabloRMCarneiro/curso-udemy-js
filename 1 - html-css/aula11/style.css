@@ -1,0 +1,8 @@
+/* selecionando atributo*/
+[checked]{
+    width: 25px;
+    height: 25px;
+}
+[meu-atributo~=valor1]{
+    color: red;
+}

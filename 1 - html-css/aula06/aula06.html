@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: monospace;
+        }
+        body{
+            background: rgb(51, 51, 51);
+        }
+        nav{
+            display: flex;
+            height: 60px;
+            background: rgb(29, 29, 29);
+            justify-content: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: rgb(151, 151, 151);
+            margin: 15px 25px;
+            transition: all 0.5s;
+            
+        }
+        nav a:hover{
+            font-size: 20px;
+            color: rgb(221, 221, 221);
+        }
+        
+        nav ul{
+            display:flex;
+            list-style: none;
+            margin: 15px;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Links</a></li>
+        </ul>
+    </nav>
+
+    <h2>Lista sem ordenação</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <ol type="1" start="4">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>    
+    </ol>
+
+    <h2> Listas descritivas</h2>
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida preta e quente</dd>
+        <dt>Leite</dt>
+        <dd>Bebida branca</dd>
+    </dl>
+</body>
+</html>

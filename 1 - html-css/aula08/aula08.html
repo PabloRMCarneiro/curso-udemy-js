@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p> O meu formulario</p>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+        </p>
+        <p>
+            <label for="dev">Sou um dev: </label>
+            <input type="checkbox" id="dev" name="dev" checked >
+        </p>
+        <p>
+            Gênero: <br>
+            <label for="feminino">Femino: </label>
+            <input type="radio" id="feminno" name="genero" >
+            <br>
+            <label for="masculino">Masculino: </label>
+            <input type="radio" id="masculino" name="genero" >
+            <br>
+            <label for="pnd">Prefiro não declarar: </label>
+            <input type="radio" id="pnd" name="genero" >
+        </p>
+        <p>
+            <label for="date"> Data: </label>
+            <input type="date" id="date" name="date" >
+        </p>
+        <p>
+            <label for="datetime-local"> Data e Hora: </label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local" >
+        </p>
+        <p>
+            <label for="time"> Hora: </label>
+            <input type="time" id="time" name="time" >
+        </p>
+        <p>
+            <label for="cor"> Cor: </label>
+            <input type="color" id="cor" name="cor" >
+        </p>
+        <p>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" placeholder="exemplo@gmail.com">
+        <p>
+        <p>
+            <label for="file"> Sua foto: </label>
+            <input type="file" id="file" name="file" accpet=".png, svg" multiple>
+        </p>
+        <p>
+            <label for="number"> Numero: </label>
+            <input type="number" id="number" name="number" placeholder="Digite um numero" min="10" max="50">
+        </p>
+        <p>
+            <label for="password"> Senha: </label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+        </p>
+        <p>
+            <label for="range"> Range: </label>
+            <input type="range" id="range" name="range" min="0" max="10" step="1" list="lista">
+            
+            <datalist id="lista">
+                <option value="0" label="0%">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5" label="50%">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10" label="100%">
+            </datalist>
+        </p>
+        <p>
+            <label for="url"> Url: </label>
+            <input type="url" id="url" name="url" placeholder="Digite uma URL">
+        </p>
+        <p>
+            <label for="search"> Pesquisa: </label>
+            <input type="search" id="search" name="search" placeholder="Digite uma pesquisa">
+        </p>
+        <p>
+            <label for="select">
+                <select id="slect" name="select">
+                    <option value="qualquer 1" label="label 1"></option>
+                    <option value="qualquer 2" label="label 2"></option>
+                    <option value="qualquer 3" label="label 3"></option>
+                    <option value="qualquer 4" label="label 4"></option>
+                </select>
+            </label>
+        </p>
+        
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>
