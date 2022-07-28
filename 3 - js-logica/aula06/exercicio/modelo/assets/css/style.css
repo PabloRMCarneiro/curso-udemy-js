@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color-light:rgb(38, 170, 199);
   --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
-  --color-error: rgb(231, 47, 47);
-  --color-success: rgb(47, 231, 59);
 }
 
 * {
@@ -20,13 +17,7 @@ body {
   font-size: 1.3em;
   line-height: 1.5em;
 }
-text{
-  font-size: 21px;
 
-}
-p{
-  font-size: 22px;
-}
 .container {
   max-width: 640px;
   margin: 50px auto;
@@ -34,20 +25,11 @@ p{
   padding: 20px;
   border-radius: 10px;
 }
-.table{
-  display: flex;
-  flex-flow: row wrap;
-}
-.table-right{
-  width: 50%;
-}
-.resultado{
-  border-radius: 5px;
 
+.text-main{
+  font-size: 20px;
 }
-.resultado p{
-  margin-left: 20px;
-}
+
 form input, form label, form button {
   display: block;
   width: 100%;
@@ -73,7 +55,6 @@ form button {
   height: 50px;
   cursor: pointer;
   margin-top: 30px;
-  border-radius: 5px;
 }
 
 form button:hover {
