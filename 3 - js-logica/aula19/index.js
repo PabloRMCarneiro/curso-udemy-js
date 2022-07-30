@@ -37,6 +37,7 @@ function retornaHora (data){
         second: '2-digit',
         hour12: false
     });
+
 }
 try{
     const data = new Date();
